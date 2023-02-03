@@ -38,6 +38,15 @@ public class Lab {
 
 //        code here
 
+while(i < end){
+    sum = sum + i;
+    i = i +1;
+
+    System.out.println("sum"+sum);
+    System.out.println("i"+i);
+
+
+}
         return sum;
     }
 }
